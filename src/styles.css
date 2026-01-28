@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  background: #fff8e1;
+  text-align: center;
+}
+
+.center {
+  margin-top: 80px;
+}
+
+.circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #ffcc80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.circle:hover {
+  transform: scale(1.05);
+}
+
+.motivation {
+  font-size: 18px;
+  margin-top: 15px;
+}
